@@ -12,6 +12,8 @@ Follow these instructions to get the final predictive modeling for Sepsis Benchm
 - Download all csv from MIMIC III, build the postgreSQL database with the given code from MIMIC.
 mimic-code/buildmimic/postgres
 
+- run identify_Y.sql with postgreSQL to get sepsis label
+
 - Python3 Anaconda: 
   Before running ETL01.py, gather the list of routine vital signs and save it to a csv in the data folder.
   On the command line, you can run in the data directory:
@@ -22,8 +24,6 @@ mimic-code/buildmimic/postgres
   Run ETL02.py. This script will save a file called ETL_output.csv, which contains the cleaned feature data.
   Run ETL03.py. This script will save two files, one called antibiotics.csv and the other antibiotics_culture.csv to the data directory.
   Run ETL04.py. This script will save one file, ETL_04_output.csv to the data directory.
-  
-- to be filled: sql
 
 - Run ETL_01_....ipynb to build the cohort. Note that you must add your own database connection information to make this notebook run.	
 - (Add more ETL part)	
