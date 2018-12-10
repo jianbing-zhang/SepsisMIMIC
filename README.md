@@ -35,4 +35,3 @@ mimic-code/buildmimic/postgres
  \- Use the Zeppelin to import the above json file to get the runnable note. 
  \- Remember to change the file path of ETL_04_output.csv in the first block of zeppelin notebook.
     **The actual csv are provided in this repository (H0, H1, H2, H3, H4, H5, H24)**
-- Implement the jupyter notebook (Modeling.ipynb) for final predictive modeling.
