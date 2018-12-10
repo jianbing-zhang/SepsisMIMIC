@@ -24,11 +24,11 @@ mimic-code/buildmimic/postgres
 - run ETL_02 to ETL_05 in Python3 Anaconda: 
   Before running, gather the list of routine vital signs and save it to a csv in the data folder.  
   On the command line, you can run in the data directory:  
-    cat D_ITEMS.csv | grep "Routine Vital Signs" > routine_vitals_signs.csv  
-    Or you can move the routine_vitals_signs.csv present in this directory to the data directory.  
+      - cat D_ITEMS.csv | grep "Routine Vital Signs" > routine_vitals_signs.csv  
+      - Or you can move the routine_vitals_signs.csv present in this directory to the data directory.  
   Make sure you run the following code in the data directory where all csv files from MIMIC located.
 
 
-- run ETL_06.json to perform feature construction. It is a zeppelin notebook and must be run in the bigdata docker environment. This notebook will produce the data in this repository **(H0, H1, H2, H3, H4, H5, H24)**  
+- run ETL_06.json to perform feature construction. It is a zeppelin notebook using Scala and must be run in the bigdata docker environment. This notebook will produce the data in this repository **(H0, H1, H2, H3, H4, H5, H24)**  
 
 - run Modeling.ipynb to get the final model and results comparison
