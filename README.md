@@ -29,6 +29,6 @@ mimic-code/buildmimic/postgres
   Make sure you run the following code in the data directory where all csv files from MIMIC located.
 
 
-- run ETL_06.json to perform feature construction. It is a zeppelin notebook using Scala and must be run in the bigdata docker environment. This notebook will produce the data in this repository **(H0, H1, H2, H3, H4, H5, H24)**  
+- run ETL_06.json to perform feature construction. It is a zeppelin notebook using **Scala** and must be run in the bigdata docker environment. This notebook will produce the data in this repository **(H0, H1, H2, H3, H4, H5, H24)**  
 
 - run Modeling.ipynb to get the final model and results comparison
